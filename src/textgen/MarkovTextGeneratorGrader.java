@@ -1,8 +1,8 @@
 package textgen;
 
-import java.util.Random;
-import java.util.HashMap;
 import java.io.PrintWriter;
+import java.util.HashMap;
+import java.util.Random;
 
 public class MarkovTextGeneratorGrader {
     private static final int LENGTH = 500;
@@ -41,6 +41,7 @@ public class MarkovTextGeneratorGrader {
             String[] words = res.split("[\\s]+");
             feedback += "\n** Test #3: Checking requested generator word count...";
             feedback += "Your generator produced " + words.length + " words. ";
+            System.out.println(feedback);
 
             HashMap<String, Integer> wordCounts = new HashMap<String, Integer>();
 
@@ -87,6 +88,7 @@ public class MarkovTextGeneratorGrader {
 
             feedback += "\nTests complete. Make sure everything looks right.";
 
+            System.out.println(feedback);
             PrintWriter f = new PrintWriter("grader_output/module3.part2.out");
             f.println(feedback);
             f.close();

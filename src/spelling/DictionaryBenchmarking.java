@@ -14,7 +14,7 @@ public class DictionaryBenchmarking {
 
 	    // Run each test more than once to get bigger numbers and less noise.
 	    // You can try playing around with this number.
-	    int trials = 500;
+	    int trials = 50;
 
 	    // The text to test on
 	    String dictFile = "data/dict.txt";
@@ -32,7 +32,9 @@ public class DictionaryBenchmarking {
 		int start = 50000;
 		
 		String notInDictionary = "notaword";
-		
+
+        System.out.println("iteration number" + "\t" + "Linked_List_Search_Time" + "\t" + "Binary_Search_Tree_Time");
+
 		// TODO: Play around with the numbers above and graph the output to see trends in the data
 		for (int numToCheck = start; numToCheck < numSteps*increment + start; 
 				numToCheck += increment)
@@ -58,7 +60,7 @@ public class DictionaryBenchmarking {
 			endTime = System.nanoTime();
 			long timeBST = (endTime - startTime);
 			
-			System.out.println(numToCheck + "\t" + timeLL + "\t" + timeBST);
+			System.out.println(numToCheck + "\t\t\t\t" + timeLL + "\t\t\t" + timeBST);
 			
 		}
 	
