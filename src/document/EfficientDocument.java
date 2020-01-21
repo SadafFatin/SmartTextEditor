@@ -16,11 +16,13 @@ public class EfficientDocument extends Document {
 	private int numSentences;  // The number of sentences in the document
 	private int numSyllables;  // The number of syllables in the document
 
-
+	private List<String> words = new ArrayList<>();
+    private String text;
 	
 	public EfficientDocument(String text)
 	{
 		super(text);
+        this.text = text;
 		processText();
 	}
 	
@@ -40,7 +42,11 @@ public class EfficientDocument extends Document {
 	    // You probably don't want to change it.
 		return !(tok.indexOf("!") >=0 || tok.indexOf(".") >=0 || tok.indexOf("?")>=0);
 	}
-	
+
+
+	public List<String> getWords(){
+	    return  words;
+    }
 	
     /** Passes through the text one time to count the number of words, syllables 
      * and sentences, and set the member variables appropriately.
@@ -57,6 +63,7 @@ public class EfficientDocument extends Document {
 		for (int i=0;i<tokens.size();i++) {
 			if (isWord(tokens.get(i))) {
 				numWords += 1;
+				words.add(tokens.get(i));
 				numSyllables += countSyllables(tokens.get(i));
 				if(i == tokens.size() -1) {
 					numSentences += 1;
@@ -112,6 +119,9 @@ public class EfficientDocument extends Document {
 	}
 
 
+
+
+
 	/**
 	 * Get the total number of syllables in the document (the stored text). 
 	 * To calculate the the number of syllables in a word, it uses the following rules:
@@ -155,6 +165,18 @@ public class EfficientDocument extends Document {
 		         32, 15, 1);
 		
 	}
-	
+
+
+	@Override
+    public String toString(){
+
+        String toReturn =  "Original text: "+this.text+ "\nwords:\n";
+        for (String s : words) {
+            toReturn += s + "\n";
+        }
+        toReturn += "\n";
+        return toReturn;
+
+    }
 
 }
