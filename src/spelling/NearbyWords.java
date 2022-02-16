@@ -84,12 +84,13 @@ public class NearbyWords implements SpellingSuggest {
 				// letters in the String
 				StringBuffer sb = new StringBuffer(s);
 				sb.insert(index, (char)charCode);
-
+				System.out.println(sb.toString());
 				// if the item isn't in the list, isn't the original string, and
 				// (if wordsOnly is true) is a real word, add to the list
 				if(!currentList.contains(sb.toString()) &&
 						(!wordsOnly||dict.isWord(sb.toString())) &&
 						!s.equals(sb.toString())) {
+					System.out.println(sb.toString());
 					currentList.add(sb.toString());
 				}
 			}

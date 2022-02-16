@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3581e630-9fbe-48f8-b033-eb8e687ec181" name="Default Changelist" comment="">
+    <list default="true" id="007b5fe3-82e0-46f0-8964-16454011a356" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MOOCTextEditor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MOOCTextEditor.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MOOCTextEditor/application/EditDistanceDialogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MOOCTextEditor/application/EditDistanceDialogController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MOOCTextEditor/application/MarkovController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MOOCTextEditor/application/MarkovController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MOOCTextEditor/application/TextProController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MOOCTextEditor/application/TextProController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MOOCTextEditor/document/Document.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MOOCTextEditor/document/Document.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MOOCTextEditor/spelling/NearbyWords.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MOOCTextEditor/spelling/NearbyWords.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/spelling/NearbyWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spelling/NearbyWords.java" afterDir="false" />
     </list>
@@ -32,7 +35,6 @@
   <component name="ProjectId" id="1UNjFZCrDsFbRNR7tFbVKQv1RgP" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -46,7 +48,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.NearbyWords">
+  <component name="RunManager" selected="Application.MainApp">
     <configuration name="DocumentBenchmarking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="document.DocumentBenchmarking" />
       <module name="MOOCTextEditor" />
@@ -116,8 +118,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NearbyWords" />
         <item itemvalue="Application.MainApp" />
+        <item itemvalue="Application.NearbyWords" />
         <item itemvalue="JUnit.MyLinkedListTester" />
         <item itemvalue="Application.DocumentBenchmarking" />
         <item itemvalue="Application.EfficientDocument" />
@@ -136,12 +138,13 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3581e630-9fbe-48f8-b033-eb8e687ec181" name="Default Changelist" comment="" />
+      <changelist id="007b5fe3-82e0-46f0-8964-16454011a356" name="Default Changelist" comment="" />
       <created>1567850958695</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -150,51 +153,50 @@
       <workItem from="1578244451609" duration="547000" />
       <workItem from="1578326828996" duration="1993000" />
       <workItem from="1578585076676" duration="1217000" />
+      <workItem from="1579708887358" duration="698000" />
+      <workItem from="1611234574155" duration="397000" />
+      <workItem from="1611241195305" duration="739000" />
+      <workItem from="1611244629101" duration="17000" />
+      <workItem from="1611244664743" duration="591000" />
+      <workItem from="1611246748791" duration="391000" />
+      <workItem from="1643881767095" duration="254000" />
+      <workItem from="1644985625350" duration="254000" />
     </task>
     <servers />
   </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state width="1132" height="153" key="GridCell.Tab.0.bottom" timestamp="1578332627120">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state width="1132" height="153" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1578332627120" />
-    <state width="1132" height="153" key="GridCell.Tab.0.center" timestamp="1578332627120">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state width="1132" height="153" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1578332627120" />
-    <state width="1132" height="153" key="GridCell.Tab.0.left" timestamp="1578332627120">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state width="1132" height="153" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1578332627120" />
-    <state width="1132" height="153" key="GridCell.Tab.0.right" timestamp="1578332627120">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state width="1132" height="153" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1578332627120" />
-    <state x="229" y="61" key="SettingsEditor" timestamp="1578244512536">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state x="229" y="61" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1578244512536" />
-    <state x="376" y="271" key="com.intellij.ide.util.TipDialog" timestamp="1579629328697">
-      <screen x="0" y="23" width="1440" height="822" />
-    </state>
-    <state x="376" y="263" key="com.intellij.ide.util.TipDialog/0.23.1440.797@0.23.1440.797" timestamp="1578585078645" />
-    <state x="376" y="271" key="com.intellij.ide.util.TipDialog/0.23.1440.822@0.23.1440.822" timestamp="1579629328697" />
-    <state x="432" y="325" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1575203911536">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state x="432" y="325" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1440.797@0.23.1440.797" timestamp="1575203911536" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="6th weeks start" />
+    <option name="LAST_COMMIT_MESSAGE" value="6th weeks start" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

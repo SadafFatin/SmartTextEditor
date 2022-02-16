@@ -1,3 +1,10 @@
+## Smart Text Editor
+
+
+<img src="./resources/1.png">
+<img src="./resources/2.png">
+
+
 /-------------------------------------------------------------------------
 / Starter Code and GUI Application for Course 2 in the
 / Java Programming: Object Oriented Design of 
@@ -6,11 +13,6 @@
 / Data structures: Measuring and Optimizing Performance
 / https://www.coursera.org/learn/data-structures-optimizing-performance
 /
-/ Authored by UCSD MOOC Team:
-/ Mia Minnes, Christine Alvarado, Leo Porter, Alec Brickman
-/ and Adam Setters
-/
-/ Date: 10/29/2015
 /-------------------------------------------------------------------------
 
 ---------------------------------------------------------[ DESCRIPTION ]--
@@ -55,21 +57,16 @@ spelling.WordPath.java
 spelling.NearbyWords.java
 spelling.WPTree.java
 
----------------------------------------------------------------[ SETUP ]-- 
+## Installation
 
 Importing Project into eclipse:
-	1. Create a new Java Project in your workspace
-	2. Import the starter files:
-	  File -> Import -> Select "File System" -> Next -> Browse and set 
-	  root directory to folder contents of zip were extracted to -> Finish
+	Clone this repo and open with Intellij 
 
 Feel free to use another IDE or manually compile and run your programs.
 If you need help, google is your friend.
 
------------------------------------------------------[ ACKNOWLEDGEMENTS]--
-
-A big thank you to Tomas Mikula for creating RichTextFX 
-which was used as the text area in the GUI application.
-(Link: https://github.com/TomasMikula/RichTextFX)
+## ACKNOWLEDGEMENTS
+Find the full course here:
+(Link:  https://www.coursera.org/learn/data-structures-optimizing-performance)
 
 
